@@ -23,7 +23,7 @@ class Answer {
         String tooHigh = "You've exceeded %d spaces. Sorry, you lose!";
         String justRight = "You're on space %d. Congrats, you win!";
 
-        for(int i=0; i<maxRolls; i++){
+        for(int i = 0; i < maxRolls; i++){
 
             int die = random.nextInt(6) + 1;
             currentSpace = currentSpace + die;
@@ -31,13 +31,11 @@ class Answer {
             if(currentSpace == lastSpace){
                 return String.format(justRight, currentSpace);
             }
-        }
 
-        if(currentSpace < lastSpace){
+            else if(currentSpace > lastSpace){
+                return String.format(tooHigh, lastSpace);
+            }
+        }
             return String.format(tooLow, currentSpace);
-        }
-        else{
-            return String.format(tooHigh, lastSpace);
-        }
     }
 }

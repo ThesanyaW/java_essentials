@@ -16,8 +16,8 @@ public class BreakStatement {
 
         for (int i = 0; i < text.length(); i++){
 
-            char currentletter = text.charAt(i);
-            if (currentletter == 'a' || currentletter == 'A'){
+            char currentLetter = text.charAt(i);
+            if (currentLetter == 'a' || currentLetter == 'A'){
                 letterFound = true;
                 break;
             }

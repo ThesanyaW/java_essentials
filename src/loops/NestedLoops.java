@@ -26,5 +26,6 @@ public class NestedLoops {
             double avg = total / numOfTests;
             System.out.println("Student " + i + " average score is " + avg);
         }
+        scanner.close();
     }
 }

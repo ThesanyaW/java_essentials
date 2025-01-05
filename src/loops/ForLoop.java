@@ -21,6 +21,7 @@ public class ForLoop {
 
             total = total + price;
         }
+        scanner.close();
 
         System.out.println("Total cost is " + total + "$");
     }
