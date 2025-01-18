@@ -4,8 +4,8 @@ public class Varargs {
 
     public static void calculateSum(int ...numbers){
         int sum = 0;
-        for(int i = 0; i < numbers.length; i++){
-            sum = sum + numbers[i];
+        for (int number : numbers) {
+            sum = sum + number;
         }
         System.out.println(sum);
     }
