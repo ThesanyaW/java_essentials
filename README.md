@@ -10,7 +10,7 @@ This repository contains essential Java programs and utilities that demonstrate 
   - Implemented the Build_a_Car class under the codeChallenge package to create a Car object. 🚗
 - **gross_calculator**: Implemented a gross pay calculator and a gross salary calculator. 💰
 - **if_else**: Implementations related to if/if-else decision structure. ❓
-- **loops**: Implementations related to while and for loops repetition structure. 🔄
+- **loops**: Implementations related to while, do-while and for loops repetition structure. 🔄
 - **methods**: Added classes for demonstrating different methods. 🛠️
 - **objects**: Added classes for demonstrating Objects and Records. 📊
 - **switch_case**: Added classes for demonstrating switch cases. 🔀
