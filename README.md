@@ -15,7 +15,7 @@ This repository contains essential Java programs and utilities that demonstrate 
 - **objects**: Added classes for demonstrating Objects and Records. 📊
 - **switch_case**: Added classes for demonstrating switch cases. 🔀
 - **textProcessing**: Contains utilities for processing text.
-   -Implemented PasswordValidator to add password validation logic🔑
+  - Implemented PasswordValidator to add password validation logic🔑
 - **Main.java** 🏁
 
 ## Getting Started 🚀
